@@ -1,9 +1,9 @@
 <!-- Banner -->
 ![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=160&section=header&text=Tian%20Chang&fontAlignY=35&fontSize=40)
 
-### 👋 Hi there, I'm **Tian Chang** (常添)
+### 👋 Hi there, I'm **Tian Chang**
 
-> **Data‑quality enthusiast** | B.Eng. @ HIT (’26) | Pre‑print under review at **PVLDB 2026**  
+<!-- **Data‑quality enthusiast** | B.Eng. @ HIT (’26) | Pre‑print under review at **PVLDB 2026** -->
 > Interested in *data cleaning, scalable clustering,* and *applied mathematics*.
 
 ---
@@ -35,14 +35,13 @@
 |------|----|-------|
 | [`AutoMLClustering`](https://github.com/tianchanghrbcn/AutoMLClustering) | ![stars](https://img.shields.io/github/stars/tianchanghrbcn/AutoMLClustering?style=social) | Error‑aware clustering search framework |
 | [`BCI-music`](https://github.com/tianchanghrbcn/BCI-music) | ![stars](https://img.shields.io/github/stars/tianchanghrbcn/BCI-music?style=social) | EEG × Music dataset & CNN baseline |
-| [`MathModeling-Winner`](#) | — | First‑Prize code for CUMCM 2023 |
 
 ---
 
 <details>
 <summary>📑 Publications & Pre‑prints</summary>
 
-- **T. Chang***, X. Ding, H. Wang, et al. “Cleaning‑Driven Clustering Performance Gains: Process Mechanism Analysis and Adaptive Search Strategies,” *under review at PVLDB 2026*. [[arXiv]](https://arxiv.org/abs/XXXX.XXXXX)
+<!-- - **T. Chang***, X. Ding, H. Wang, et al. “Cleaning‑Driven Clustering Performance Gains: Process Mechanism Analysis and Adaptive Search Strategies,” *under review at PVLDB 2026*. [[arXiv]](https://arxiv.org/abs/XXXX.XXXXX) -->
 
 </details>
 
