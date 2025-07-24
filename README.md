@@ -3,7 +3,7 @@
 
 ### 👋 Hi there, I'm **Tian Chang**
 
-**Data‑quality enthusiast** | B.Eng. @ HIT (’26)
+**Data‑quality enthusiast** | B.Eng.\ Computer Science @ Harbin Institute of Technology (’26)
 > Interested in *data cleaning, scalable clustering,* and *applied mathematics*.
 
 ### 🛠 Languages & Tools
