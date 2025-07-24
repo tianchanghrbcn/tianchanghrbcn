@@ -13,19 +13,6 @@
 ![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white)
 ![Linux](https://img.shields.io/badge/linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
-### 🚀 Featured Projects
-| Repo | ⭐ | Brief |
-|------|----|-------|
-| [`AutoMLClustering`](https://github.com/tianchanghrbcn/AutoMLClustering) | ![stars](https://img.shields.io/github/stars/tianchanghrbcn/AutoMLClustering?style=social) | Error‑aware clustering search framework |
-| [`BCI-music`](https://github.com/tianchanghrbcn/BCI-music) | ![stars](https://img.shields.io/github/stars/tianchanghrbcn/BCI-music?style=social) | EEG × Music dataset & CNN baseline |
-
-<details>
-<summary>📑 Publications & Pre‑prints</summary>
-
-<!-- - **T. Chang***, X. Ding, H. Wang, et al. “Cleaning‑Driven Clustering Performance Gains: Process Mechanism Analysis and Adaptive Search Strategies,” *under review at PVLDB 2026*. [[arXiv]](https://arxiv.org/abs/XXXX.XXXXX) -->
-
-</details>
-
 ### 📫 Get in Touch
 [![Email](https://img.shields.io/badge/email-2022111699%40stu.hit.edu.cn-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:2022111699@stu.hit.edu.cn)
 [![Google Scholar](https://img.shields.io/badge/Scholar-Profile-4285F4?style=flat-square&logo=google-scholar&logoColor=white)](https://scholar.google.com/citations?user=XXXX)
