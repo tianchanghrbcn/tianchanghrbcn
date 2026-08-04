@@ -3,65 +3,110 @@
 
 # Tian Chang
 
-**B.Eng. in Computer Science, Harbin Institute of Technology (2022–2026)**  
-Research interests: **recursive ML systems**, **data-centric AI**, and **data management for ML/AI**
+**Computer Science Graduate | Data-Centric and Reliable Machine Learning**
 
-I am preparing for PhD study beginning in Fall 2027. My research focuses on how data generation, cleaning, selection, and evaluation shape downstream machine-learning behavior.
+B.Eng. in Computer Science and Technology,  
+Harbin Institute of Technology, 2022–2026
+
+My research lies at the intersection of **data-centric machine learning**, 
+**reliable AI**, and the **empirical study of learning systems**.
+
+I am particularly interested in how data construction, cleaning, selection,
+generation, and evaluation influence learning dynamics, generalization, and
+the reliability of downstream models.
+
+I am currently preparing for PhD study beginning in Fall 2027.
 
 ## Research Interests
 
-- Recursive ML systems and data–model feedback
-- Data quality, provenance, and data management for ML/AI
-- Reliable and reproducible ML pipelines
+- Data-centric and reliable machine learning
+- Learning under evolving and shifted data distributions
 - Synthetic and model-generated data
-- Time-series foundation models
-- Empirical benchmarking and mechanism-oriented evaluation
+- Data–model feedback and recursive learning
+- Foundation models and empirical deep learning
+- Data quality, provenance, and evaluation
+- Reproducible machine-learning systems and benchmarking
 
-## Current Research Agenda
+## Current Research Direction
 
-### Recursive ML Systems and Data–Model Feedback
+### Learning under Recursive Data Feedback
 
-I am developing a research agenda around a central question:
+Modern AI systems increasingly participate in producing, selecting, and
+evaluating the data used to train future models. This creates a learning
+setting in which the learner may partially influence its own future data
+distribution.
 
-> When models are recursively trained on data generated, filtered, or rewritten by earlier models, are they continuing to learn from the external world—or increasingly adapting to their own echoes?
+My current research is motivated by a central question:
 
-My current interests include:
+> When models repeatedly learn from data generated, filtered, or rewritten by
+> earlier models, do they continue to learn about the external world, or do
+> they increasingly adapt to artifacts introduced by previous models?
 
-- characterizing when recursive training leads to stability, degradation, or improvement;
-- tracing provenance and process-level signals across data–model generations;
-- measuring the gap between adaptation to the external world and adaptation to model-generated feedback;
-- designing external anchors, verification mechanisms, and control strategies;
-- using time-series foundation models as a controlled setting for empirical and theoretical study.
+I am interested in:
+
+- identifying when model-generated data improve, degrade, or stabilize learning;
+- understanding how feedback changes learning dynamics across successive
+  training rounds;
+- distinguishing genuine external-world generalization from adaptation to
+  self-generated distributions;
+- tracing provenance and process-level signals through data–model pipelines;
+- studying how real data, verification, and independent evaluation can anchor
+  recursive learning systems;
+- developing controlled empirical settings for studying these mechanisms,
+  including time-series foundation models.
+
+This agenda connects data-centric AI with broader questions in generalization,
+distribution shift, self-training, foundation models, and reliable autonomous
+learning.
 
 ## Selected Research
 
 ### TRACE — Data Cleaning and Unsupervised Clustering
 
 **TRACE: An Empirical Study of How Data Cleaning Affects Unsupervised Clustering**  
-Research manuscript; second author and primary student contributor.
+Research manuscript, second author.
 
-- Formulated research questions on how data cleaning affects downstream clustering beyond final scores.
-- Designed a four-layer framework covering data rewriting, process-level signals, outcome benefits, and hyperparameter shifts.
-- Built a reproducible benchmark pipeline across multiple datasets, cleaning methods, and clustering algorithms.
-- Led experimental implementation, result analysis, and major manuscript drafting.
-- Adapted the research into my undergraduate thesis, recognized as an **HIT Outstanding Undergraduate Thesis (Top 5%)**.
+This project studies how upstream data-cleaning interventions affect the
+structure, learning process, and outcomes of downstream clustering systems.
+
+My contributions include:
+
+- formulating research questions that go beyond final performance scores;
+- designing a four-layer analysis framework covering data rewriting,
+  process-level signals, outcome benefits, and hyperparameter shifts;
+- building a reproducible benchmark across multiple datasets, cleaning
+  methods, and clustering algorithms;
+- leading experimental implementation, result analysis, and substantial
+  manuscript drafting;
+- adapting the research into my undergraduate thesis, which was recognized as
+  an **HIT Outstanding Undergraduate Thesis (Top 5%)**.
 
 <!--
-Add the repository only after confirming that the code, documentation, and future submission policy are ready for public linking:
+Add public links after confirming that the manuscript, code, and documentation
+are ready for release.
+
+Paper: <public paper URL>
 Repository: https://github.com/tianchanghrbcn/TRACE
 -->
 
 ### Cerebral Music Processing — Brain–Computer Interface
 
-- Served as data processing lead in a National College Student Innovation Program project.
-- Built an EEG analysis workflow covering preprocessing, microstate extraction, hidden Markov modeling, and brain-network visualization.
+National College Student Innovation Program project.
+
+- Served as the primary contributor responsible for data processing.
+- Developed an EEG analysis workflow covering signal preprocessing,
+  microstate extraction, hidden Markov modeling, and brain-network
+  visualization.
 - The project received a First-Class Project Award.
 
 ## Background
 
-- **B.Eng. in Computer Science**, Harbin Institute of Technology, 2026
-- Minor coursework in **Information and Computing Science / Applied Mathematics**
-- Interests spanning data systems, machine learning, probability, algorithms, and mathematical modeling
+- **B.Eng. in Computer Science and Technology**  
+  Harbin Institute of Technology, 2026
+- Additional coursework in information and computing science, applied
+  mathematics, probability, algorithms, and mathematical modeling
+- Research experience in data cleaning, clustering, empirical machine
+  learning, and EEG signal analysis
 
 ## Technical Skills
 
@@ -72,14 +117,28 @@ Repository: https://github.com/tianchanghrbcn/TRACE
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
-- Python, NumPy, Pandas, PyTorch, SQL
-- Experimental pipeline construction, logging, evaluation, and reproducibility
-- Data cleaning, clustering evaluation, and empirical benchmarking
-- LaTeX, Matplotlib, TikZ, Git, and Linux
+**Programming and machine learning**
+
+- Python, C/C++, Java, SQL
+- NumPy, Pandas, PyTorch, scikit-learn
+- Data preprocessing, clustering, model evaluation, and statistical analysis
+
+**Research and experimentation**
+
+- Experimental pipeline construction
+- Benchmark design and reproducible evaluation
+- Data cleaning and process-level analysis
+- Logging, visualization, and result aggregation
+
+**Tools**
+
+- Git, Linux, LaTeX, Matplotlib, TikZ
+- VS Code, PyCharm, IntelliJ IDEA
 
 ## Contact
 
 - Email: [changthrb1234@gmail.com](mailto:changthrb1234@gmail.com)
+- GitHub: [tianchanghrbcn](https://github.com/tianchanghrbcn)
 - ORCID: [0009-0008-0758-1932](https://orcid.org/0009-0008-0758-1932)
 
 <!--
@@ -87,5 +146,6 @@ Enable these after the corresponding public pages contain current material:
 
 - Google Scholar: https://scholar.google.com/citations?user=u8TugscAAAAJ
 - CV: <public CV URL>
-- Personal website: <GitHub Pages or personal-domain URL>
+- Research Proposal: <public research proposal URL>
+- Personal Website: <GitHub Pages or personal-domain URL>
 -->
