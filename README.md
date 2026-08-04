@@ -15,8 +15,6 @@ I am particularly interested in how data construction, cleaning, selection,
 generation, and evaluation influence learning dynamics, generalization, and
 the reliability of downstream models.
 
-I am currently preparing for PhD study beginning in Fall 2027.
-
 ## Research Interests
 
 - Data-centric and reliable machine learning
