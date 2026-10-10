@@ -1,54 +1,111 @@
+<!-- Banner -->
+![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=145&section=header&text=Tian%20Chang&fontAlignY=35&fontSize=40)
+
 # Tian Chang
 
-**Computer Science Graduate | Data-Centric AI and Reliable Machine Learning**
+**Computer Science Graduate | Data-Centric and Reliable Machine Learning**
 
-B.Eng. in Computer Science and Technology, Harbin Institute of Technology (HIT)  
-Aug 2022 – Jun 2026 · Weighted Average: **85.08/100**
+B.Eng. in Computer Science and Technology,  
+Harbin Institute of Technology, 2022–2026
+
+My research lies at the intersection of **data-centric machine learning**,
+**reliable AI**, and the **empirical study of learning systems**.
+
+I am particularly interested in how data construction, cleaning, selection,
+generation, and evaluation influence learning dynamics, generalization, and
+the reliability of downstream models.
 
 ## Research Interests
 
-Data-Centric AI; Reliable Machine Learning; Data Quality and Data Management.
+- Data-centric and reliable machine learning
+- Learning under evolving and shifted data distributions
+- Synthetic and model-generated data
+- Data–model feedback and recursive learning
+- Foundation models and empirical deep learning
+- Data quality, provenance, and evaluation
+- Reproducible machine-learning systems and benchmarking
 
-## Research Experience
+## Current Research Direction
 
-### TRACE: Data Cleaning Effects on Unsupervised Clustering
+### Learning under Recursive Data Feedback
 
-**Nov 2024 – May 2026 · HIT**  
-Primary Student Contributor; advised by [Xiaoou Ding](https://dblp.org/pid/168/4671.html) and [Hongzhi Wang](https://dblp.org/pid/81/940.html).
+Modern AI systems increasingly participate in producing, selecting, and
+evaluating the data used to train future models. My current research is
+motivated by a central question:
 
-**TRACE: An Empirical Study of How Data Cleaning Affects Unsupervised Clustering.**  
-[Xiaoou Ding](https://dblp.org/pid/168/4671.html), **Tian Chang**, Zekai Qian, Muyun Zhou, [Hongzhi Wang](https://dblp.org/pid/81/940.html), and [Chen Wang](https://dblp.org/pid/82/4206-18.html).  
-*Unpublished research manuscript, Jun 2026.* Second author and primary student contributor.  
-[Read the manuscript](https://drive.google.com/file/d/1Q-zJz7MRPDDuHjiXxmwSm0kVJ2jqHpjI/view?usp=sharing)
+> When models repeatedly learn from data generated, filtered, or rewritten by
+> earlier models, do they continue to learn about the external world, or do
+> they increasingly adapt to artifacts introduced by previous models?
 
-- Co-formulated research questions and designed a four-layer framework linking data rewriting, process signals, outcomes, and hyperparameter shifts.
-- Built a reproducible benchmark spanning 4 datasets, 60 corrupted variants, 9 cleaning methods plus an oracle, and 6 clustering algorithms.
-- Identified cleaning-induced shifts in optimal model complexity and context-dependent parameter responses, informing retuning guidance.
-- Evaluated trajectory-guided budget allocation via leave-one-dataset-out replay; reduced the median search-budget fraction needed to reach 95% of the full-search reference score from 27.0% to 13.5% versus randomized replay.
+I am interested in studying how provenance, real data, verification, and
+independent evaluation can anchor recursive learning, including in
+time-series foundation models.
 
-### Brain–Computer Interface Research on Music Processing
+## Selected Research
 
-**Oct 2023 – Jun 2024 · HIT**  
-Data Processing Lead; National College Student Innovation Program.
+### TRACE — Data Cleaning and Unsupervised Clustering
 
-- Processed 64-channel EEG recordings from 32 participants and developed an end-to-end EEG and audio-feature analysis pipeline using microstate-based hidden Markov modeling; achieved 71.7% mean accuracy in four-way music-style classification.
+**TRACE: An Empirical Study of How Data Cleaning Affects Unsupervised Clustering**  
+*Unpublished research manuscript.* Second author and primary student contributor.  
+[Manuscript](https://drive.google.com/file/d/1Q-zJz7MRPDDuHjiXxmwSm0kVJ2jqHpjI/view?usp=sharing)
 
-## Awards and Honors
+This project studies how upstream data-cleaning interventions affect the
+structure, learning process, and outcomes of downstream clustering systems.
 
-- **HIT Outstanding Undergraduate Thesis (top 5% university-wide)**, 2026.
-- National College Student Innovation Program, First-Class Project Award, 2024.
-- China Undergraduate Mathematical Contest in Modeling, Provincial First Prize, 2023.
-- HIT Freshman Research Project, First-Class Project Award, 2023.
-- HIT Merit Scholarship, 2022 and 2023.
+Advised by [Xiaoou Ding](https://dblp.org/pid/168/4671.html) and
+[Hongzhi Wang](https://dblp.org/pid/81/940.html).
+
+My contributions include:
+
+- co-formulating research questions and designing a four-layer framework
+  covering data rewriting, process signals, outcomes, and hyperparameter shifts;
+- building a reproducible benchmark across 4 datasets, 60 corrupted variants,
+  9 cleaning methods plus an oracle, and 6 clustering algorithms;
+- implementing experiments and contributing substantially to result analysis
+  and manuscript preparation;
+- adapting the research into my undergraduate thesis, recognized as an
+  **HIT Outstanding Undergraduate Thesis (top 5% university-wide)**.
+
+### Cerebral Music Processing — Brain–Computer Interface
+
+National College Student Innovation Program project.
+
+- Served as Data Processing Lead, processing 64-channel EEG recordings from
+  32 participants.
+- Developed an EEG and audio-feature analysis pipeline using microstate-based
+  hidden Markov modeling; achieved 71.7% mean accuracy in four-way music-style
+  classification.
+- The project received a First-Class Project Award.
 
 ## Technical Skills
 
-- **Programming:** Python, C/C++, SQL.
-- **Machine learning and data tools:** PyTorch, NumPy, Pandas, scikit-learn, Matplotlib.
-- **Systems and research tools:** Linux, Git, LaTeX, reproducible experiment scripting.
-- **Research:** Experimental design, benchmark construction, reproducible ML evaluation, data-centric analysis.
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+
+**Programming and machine learning**
+
+- Python, C/C++, Java, SQL
+- NumPy, Pandas, PyTorch, scikit-learn
+- Data preprocessing, clustering, model evaluation, and statistical analysis
+
+**Research and experimentation**
+
+- Experimental pipeline construction
+- Benchmark design and reproducible evaluation
+- Data cleaning and process-level analysis
+- Logging, visualization, and result aggregation
+
+**Tools**
+
+- Git, Linux, LaTeX, Matplotlib, TikZ
+- VS Code, PyCharm, IntelliJ IDEA
 
 ## Contact
 
 - Email: [changthrb1234@gmail.com](mailto:changthrb1234@gmail.com)
+- GitHub: [tianchanghrbcn](https://github.com/tianchanghrbcn)
 - ORCID: [0009-0008-0758-1932](https://orcid.org/0009-0008-0758-1932)
