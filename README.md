@@ -17,13 +17,10 @@ the reliability of downstream models.
 
 ## Research Interests
 
-- Data-centric and reliable machine learning
-- Learning under evolving and shifted data distributions
-- Synthetic and model-generated data
-- Data–model feedback and recursive learning
-- Foundation models and empirical deep learning
-- Data quality, provenance, and evaluation
-- Reproducible machine-learning systems and benchmarking
+- Data-centric AI and reliable machine learning
+- Data quality, data management, and evaluation
+- Learning dynamics, generalization, and distribution shift
+- Foundation models and model-generated data
 
 ## Current Research Direction
 
@@ -63,6 +60,7 @@ My contributions include:
   and manuscript preparation;
 - adapting the research into my undergraduate thesis, recognized as an
   **HIT Outstanding Undergraduate Thesis (Design)** in 2026.
+  [Certificate](https://drive.google.com/file/d/1toTYvP-8OJBIbxPOAuoKxbLeDmpjDCYV/view?usp=sharing)
 
 ### Cerebral Music Processing — Brain–Computer Interface
 
@@ -75,6 +73,7 @@ National College Student Innovation Program project.
   classification.
 - The project received First Prize in HIT's Undergraduate Innovation and
   Entrepreneurship Training Program (2024).
+  [Certificate](https://drive.google.com/file/d/1EnZ5sUfm4DfyLenETkdRg_5CucCFuQqg/view?usp=sharing)
 
 ## Technical Skills
 
