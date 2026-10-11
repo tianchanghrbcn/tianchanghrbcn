@@ -29,17 +29,15 @@ the reliability of downstream models.
 
 ### Learning under Recursive Data Feedback
 
-Modern AI systems increasingly participate in producing, selecting, and
-evaluating the data used to train future models. My current research is
-motivated by a central question:
+My current research interests focus on how learning changes when models
+repeatedly train on data generated, selected, or modified by earlier models.
 
-> When models repeatedly learn from data generated, filtered, or rewritten by
-> earlier models, do they continue to learn about the external world, or do
-> they increasingly adapt to artifacts introduced by previous models?
+> Under what conditions does recursive data feedback improve or degrade
+> generalization to independently collected real-world data?
 
-I am interested in studying how provenance, real data, verification, and
-independent evaluation can anchor recursive learning, including in
-time-series foundation models.
+I am interested in how data provenance, real data, verification, and
+independent evaluation can anchor recursive learning, with time-series
+foundation models as a potential experimental setting.
 
 ## Selected Research
 
@@ -64,7 +62,7 @@ My contributions include:
 - implementing experiments and contributing substantially to result analysis
   and manuscript preparation;
 - adapting the research into my undergraduate thesis, recognized as an
-  **HIT Outstanding Undergraduate Thesis (top 5% university-wide)**.
+  **HIT Outstanding Undergraduate Thesis (Design)** in 2026.
 
 ### Cerebral Music Processing — Brain–Computer Interface
 
@@ -75,7 +73,8 @@ National College Student Innovation Program project.
 - Developed an EEG and audio-feature analysis pipeline using microstate-based
   hidden Markov modeling; achieved 71.7% mean accuracy in four-way music-style
   classification.
-- The project received a First-Class Project Award.
+- The project received First Prize in HIT's Undergraduate Innovation and
+  Entrepreneurship Training Program (2024).
 
 ## Technical Skills
 
